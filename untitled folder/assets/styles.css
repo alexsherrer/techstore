@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+header {
+  background: whitesmoke;
+
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 80px;
+}
+header .logo {
+  width: 50%;
+}
+header .logo a {
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: navy;
+  padding-left: 10%;
+}
+header .menu {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+header .menu a {
+  font-weight: 412;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: navy;
+  padding-left: 10%;
+}
+#jtron {
+  background: white;
+  height: 100vh;
+  width: 100%;
+}
+.img {
+  height: 80%;
+  widows: 100%;
+  background-image: url(dc.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+}
+.pg2 {
+  background: white;
+  height: 100vh;
+  width: 100%;
+}
+.top {
+  height: 70%;
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.card {
+  border: 2px solid grey;
+  border-radius: 8px;
+  width: 100%;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.cardimg {
+  width: 100%;
+  height: 50%;
+  background: white;
+}
+.carddesc {
+  height: 50%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.carddesc p {
+  font-weight: 300;
+}
+.carddesc h1 {
+  font-weight: 400;
+}
+#cimg1 {
+  background-image: url(window.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+}
+#cimg2 {
+  background-image: url(tablet.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+}
+#cimg3 {
+  background-image: url(headphones.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+}
+.pg3 {
+  background: white;
+  height: 100vh;
+  width: 100%;
+}
+.bottom {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 100%;
+  height: 90%;
+  grid-gap: 40px;
+  background: white;
+  padding: 40px;
+}
+.product {
+  width: 100%;
+  height: 100%;
+  background: white;
+}
+
+.product h5 {
+  font-weight: 300;
+  font-size: 10px;
+  padding: 5px;
+}
+.cardimg2 {
+  width: 100%;
+  height: 70%;
+  background: white;
+}
+
+button {
+  box-shadow: none;
+  border: none;
+  background: navy;
+  color: white;
+  height: 40px;
+  width: 100px;
+  border-radius: 8px;
+  padding: 10px;
+}
+button:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+#p1 {
+  background-image: url(lp.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+}
+#p2 {
+  background-image: url(airpod.jpg);
+
+  background-size: cover;
+  background-repeat: none;
+}
+#p3 {
+  background-image: url(ps4cont.jpg);
+
+  background-size: cover;
+  background-repeat: none;
+}
+#p4 {
+  background-image: url(xbcont.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+}
+#p5 {
+  background-image: url(mac.jpg);
+
+  background-size: cover;
+  background-repeat: none;
+}
+#p6 {
+  background-image: url(fridge.jpg);
+
+  background-size: cover;
+  background-repeat: none;
+}
+#p7 {
+  background-image: url(washer.jpg);
+
+  background-size: cover;
+  background-repeat: none;
+}
+#p8 {
+  background-image: url(tv.jpg);
+
+  background-size: cover;
+  background-repeat: none;
+}
+footer {
+  background: navy;
+  height: 300px;
+  width: 100%;
+}
+@media screen and (max-width: 914px) {
+  .top {
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .card {
+    height: 100%;
+    font-size: 50%;
+  }
+  .logo {
+    display: none;
+  }
+  .bottom {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+  .cardimg2 {
+    display: none;
+  }
+}
